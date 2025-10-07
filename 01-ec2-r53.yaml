@@ -16,7 +16,7 @@
     - user 
     - shipping
     - payment
-     
+
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
@@ -46,7 +46,7 @@
 
   - name: create route53 record
     amazon.aws.route53:
-      state: present
+      state: absent
       zone: "{{ domain_name }}"
       record: "{{ item.item }}.{{ domain_name }}" #mongodb.abhidevops.fun
       type: A
