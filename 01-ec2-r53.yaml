@@ -8,10 +8,10 @@
     domain_name: "abhidevops.fun"
     instance:
     - mongodb
+    - redis
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
-      
       name: "{{ item }}"
       instance_type: t3.micro
       security_group: "{{ sg_id }}"
