@@ -6,6 +6,7 @@
     sg_id: sg-062dd9ff5db3a3585
     zone_id: Z00461141SW3FUGHB0WX4
     domain_name: "abhidevops.fun"
+    # we can pass instances through command line using -e
     instance:
     - mongodb
     - redis
