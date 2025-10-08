@@ -7,7 +7,7 @@
     zone_id: Z00461141SW3FUGHB0WX4
     domain_name: "abhidevops.fun"
     # we can pass instances through command line using -e
-    instance:
+    # instance:
     # - mongodb
     # - redis
     # - mysql
