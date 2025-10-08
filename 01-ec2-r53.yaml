@@ -8,10 +8,10 @@
     domain_name: "abhidevops.fun"
     # we can pass instances through command line using -e
     instance:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
