@@ -9,7 +9,8 @@
     loop:
     - maven
     - mysql
-   - name: install mysql python libraries
+    
+    - name: install mysql python libraries
     ansible.builtin.pip:
       executable: pip3.9
       name: "{{ item }}"
