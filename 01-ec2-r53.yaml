@@ -7,12 +7,12 @@
     zone_id: Z00461141SW3FUGHB0WX4
     domain_name: "abhidevops.fun"
     # we can pass instances through command line using -e
-    instance:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
-    - catalogue
+    # instance:
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq
+    # - catalogue
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
